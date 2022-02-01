@@ -1,1 +1,51 @@
+#container{
+    width:auto;
+    height:auto;
+}
+.row{
+    display:block;
+    width:auto;
+}
+.yellow,.red,.blue{
+    display:flex;
+}
 
+.yellow .col,.red .col,.blue .col{
+    height:100px;
+    margin:10px;
+}
+.yellow .col{
+    background-color: yellow;
+    opacity:0.7;
+}
+.red .col{
+    background-color:lightcoral;
+}
+
+.blue .col{
+    background-color: lightblue;
+}
+/*---------------------------min:1024------------------------------*/
+@media screen  and (min-device-width:1024px){
+    .yellow .col ,.red .col,.blue .col{
+        flex:1 1 auto;
+     }
+
+}
+/*------------------------min:768px-------------------------------*/
+@media screen and (min-device-width:768px) and (max-device-width:1023px) {
+    .yellow .col,.red .col {
+        flex:1 1 auto;
+    }
+    .blue{
+        flex-direction: column;
+    }
+    
+}    
+/*------------------------min:320px---------------------------*/
+@media screen and (min-device-width:320px) and (max-device-width:767px) {
+    .yellow,.red,.blue{
+        flex-direction: column;
+    }
+    
+}
