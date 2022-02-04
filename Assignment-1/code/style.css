@@ -6,11 +6,20 @@
     display:block;
     width:auto;
 }
-.yellow,.red,.blue{
+.yellow{
     display:flex;
+    flex-direction:column;
+}
+.red{
+    display:flex;
+    flex-direction: column;
+}
+.blue{
+    display:flex;
+    flex-direction: column;
 }
 
-.yellow .col,.red .col,.blue .col{
+.yellow .col,.red .col,.blue .col1,.blue .col2,.blue .col3{
     height:100px;
     margin:10px;
 }
@@ -22,30 +31,49 @@
     background-color:lightcoral;
 }
 
-.blue .col{
+.blue .col1,.blue .col2{
     background-color: lightblue;
+}
+.blue .col1,.blue .col2{
+flex:1 1 auto;
 }
 /*---------------------------min:1024------------------------------*/
 @media screen  and (min-device-width:1024px){
-    .yellow .col ,.red .col,.blue .col{
+    .yellow .col ,.red .col,.blue .col1,.blue .col2,.blue .col3{
         flex:1 1 auto;
      }
-
+    .yellow{
+        flex-flow: row wrap;
+    }
+    .blue{
+        flex-flow:row wrap;
+    }
+    .blue .col3{
+        background-color: lightblue;
+    }
 }
 /*------------------------min:768px-------------------------------*/
 @media screen and (min-device-width:768px) and (max-device-width:1023px) {
     .yellow .col,.red .col {
         flex:1 1 auto;
     }
-    .blue{
-        flex-direction: column;
+    .yellow{
+        flex-flow:row wrap;
     }
+    /*.blue .col1,.blue .col2{
+        flex-direction: column;
+        flex:1 1 auto;
+    }*/
     
 }    
 /*------------------------min:320px---------------------------*/
 @media screen and (min-device-width:320px) and (max-device-width:767px) {
-    .yellow,.red,.blue{
-        flex-direction: column;
+    .yellow,.red{
+        flex-flow:column wrap;
+        flex:1 1 auto;
+    }
+    .yellow .col{
+        flex:1 1 auto;
     }
     
 }
