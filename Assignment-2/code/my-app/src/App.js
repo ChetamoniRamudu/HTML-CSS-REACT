@@ -4,21 +4,38 @@ import './App.css';
 
 
 function App(props) {
- const {employee}=props;
-    
-return(
-  <div className="container">
-    <img src={employee. profileImg} width="100" height="100" />
-    <h2>Tom</h2>
-    <label>Location</label>
-    <strong>New York</strong>
-    <label id="blood">Blood group</label>
-    <strong>B+</strong>
-    <label id="age">Age</label>
-    <strong>28</strong>
-  
-</div>
-)
+  const { employee } = props;
+
+  return (
+    <div className="container">
+      <div className='employee'>
+        <div className='em-img'>
+        <img src={employee.profileImg} width="100" height="100" />
+
+        </div>
+        <div>
+        <h2>Tom</h2>
+        </div>
+        <div className='employee-info'>
+        <label>Location</label><br></br>
+        <strong>New York</strong>
+        </div>
+        <div className='employee-info'> 
+        <label id="blood">Blood group</label><br></br>
+        <strong>B+</strong>
+        </div>
+        <div className='employee-info'>
+        <label id="age">Age</label><br></br>
+        <strong>28</strong>
+        </div>
+        
+        
+        
+        
+      </div>
+
+    </div>
+  )
 }
 
 

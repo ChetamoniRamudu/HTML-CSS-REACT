@@ -1,9 +1,20 @@
 .container{
   display: flex;
-  flex-direction:column;
+  justify-content:center;
   align-items: center;
-  justify-content: center;
+  margin-top: 30px;
 }
-#blood,#age{
-  margin-top: 10px;
+.employee{
+  width:120px;
+}
+.em-img{
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.em-img img{
+  border-radius: 10px;
+}
+.employee-info,h2{
+  margin: 20px 10px ;
 }
