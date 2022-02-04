@@ -8,7 +8,15 @@ function App(props) {
     
 return(
   <div className="container">
-  {/* Start your React code here */}
+    <img src={employee. profileImg} width="100" height="100" />
+    <h2>Tom</h2>
+    <label>Location</label>
+    <strong>New York</strong>
+    <label id="blood">Blood group</label>
+    <strong>B+</strong>
+    <label id="age">Age</label>
+    <strong>28</strong>
+  
 </div>
 )
 }
