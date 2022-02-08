@@ -14,19 +14,19 @@ function App(props) {
 
         </div>
         <div>
-        <h2>Tom</h2>
+        <h2>{employee.name}</h2>
         </div>
         <div className='employee-info'>
         <label>Location</label><br></br>
-        <strong>New York</strong>
+        <strong>{employee.location}</strong>
         </div>
         <div className='employee-info'> 
         <label id="blood">Blood group</label><br></br>
-        <strong>B+</strong>
+        <strong>{employee.bloodGroup}</strong>
         </div>
         <div className='employee-info'>
         <label id="age">Age</label><br></br>
-        <strong>28</strong>
+        <strong>{employee.age}</strong>
         </div>
         
         

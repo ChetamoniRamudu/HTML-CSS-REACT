@@ -6,6 +6,7 @@
 }
 .employee{
   width:120px;
+  box-shadow: 3px 3px  3px 3px;
 }
 .em-img{
   text-align: center;
