@@ -52,7 +52,7 @@ function App() {
         <div className='container'>
           <div className='customer-info block'>
             <p className='text'>
-              <strong>Appointment On </strong>
+              <strong>Appointment-On </strong>
               {
                 appointments.appointmenton
               }
