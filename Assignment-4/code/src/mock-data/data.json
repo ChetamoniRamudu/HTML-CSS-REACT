@@ -1,0 +1,26 @@
+
+{
+    "user": [
+        {"name": "Siva",
+            "location": "Bengaluru",
+            "likes": 64,
+            "description": "Kick start your career",
+            "PostImage": "https://cdn.pixabay.com/photo/2014/02/27/16/10/tree-276014__340.jpg",
+            "date": 1234456667889
+        },
+        {"name": "Neeraj",
+            "location": "Pune",
+            "likes": 30,
+            "description": "Sample Description",
+            "PostImage": "https://cdn.pixabay.com/photo/2015/06/19/21/24/avenue-815297__340.jpg",
+            "date": 23344446757
+        },
+        {"name": "Rahul",
+            "location": "Hyderabad",
+            "likes": 30,
+            "description": "Sample Description for Post",
+            "PostImage": "https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg",
+            "date": 78883638993
+        }
+    ]
+}

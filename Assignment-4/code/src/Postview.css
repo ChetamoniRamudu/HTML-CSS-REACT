@@ -9,3 +9,64 @@ body {
   color: black;
   margin:0;
 } 
+.header{
+  display:flex;
+  flex-direction:column;
+}
+#logo{
+  float:left;
+  margin: 10px 0px 10px 100px;
+}
+#insta{
+  font-size:25px;
+  color:green;
+}
+#camera{
+  float:right;
+  margin: 10px 100px 10px 0px;
+}
+.card{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+.instacard{
+  border:1px solid black;
+  box-shadow:2px;
+  margin:10px;
+}
+.postheader{
+  display: flex;
+
+}
+.person,.moreimg{
+  width:50%;
+}
+.person{
+  text-align: left;
+  margin-left: 10px;
+}
+.moreimg{
+  float:right;
+}
+.postfooter{
+  padding-bottom:50px;
+}
+.impress1{
+  position:absolute;
+  left:35rem;
+}
+
+.datee{
+  position:relative;
+  left:30%;
+  margin-right:-20px;
+}
+.ptag{
+  position:absolute;
+  left:35rem;
+}
+.ptag{
+  margin-top: 30px;
+}
